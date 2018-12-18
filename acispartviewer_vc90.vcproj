@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?><VisualStudioProject Keyword="MFCProj" Name="acispartviewer_vc90" ProjectGUID="{002BC4C5-6248-47FF-9FA6-9A2436F08AFB}" ProjectType="Visual C++" RootNamespace="acispartviewer_vc90" TargetFrameworkVersion="0" Version="9.00">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="1" IntermediateDirectory="Debug_nt_i386_vc90" Name="Debug|Win32" OutputDirectory="..\..\..\bin\nt_i386_vc90d" UseOfMFC="2">
+			<Tool CommandLine="" Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool HeaderFileName="" MkTypLibCompatible="true" Name="VCMIDLTool" PreprocessorDefinitions="_DEBUG" SuppressStartupBanner="true" TargetEnvironment="1" TypeLibraryName=".\Debug_nt_i386_vc90/acispartviewer.tlb"/>
+			<Tool AdditionalIncludeDirectories="./,../../../Dev_Tools/hoops_3dgs/source;../../../Dev_Tools/hoops_hio/hio_dwf/hoops_dwf/source,../../../Dev_Tools/hoops_hio/hio_u3d/source,../../../dev_tools/hoops_mvo/source,../../../dev_tools/hoops_mfc/source,../../../dev_tools/hoops_stream/source,../../../dev_tools/hoops_stream/source/stream_common,../../../dev_tools/utility/source,$(A3DT)\include,..\partviewer_common,..\solidviewer_common" AssemblerListingLocation=".\Debug_nt_i386_vc90/" BrowseInformation="1" CompileAs="0" DebugInformationFormat="4" Name="VCCLCompilerTool" ObjectFile=".\Debug_nt_i386_vc90/" Optimization="0" PrecompiledHeaderFile=".\Debug_nt_i386_vc90/acispartviewer.pch" PrecompiledHeaderThrough="StdAfx.h" PreprocessorDefinitions="_UNICODE;_DEBUG;ACIS_DLL;DLLEXPORT=__declspec(dllexport);WIN32;_WINDOWS;ACIS;STDAFX;NT;NT_VC8_DLLD" ProgramDataBaseFileName="$(OutDir)\$(TargetName).pdb" RuntimeLibrary="3" RuntimeTypeInfo="false" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" UsePrecompiledHeader="2" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG"/>
+			<Tool CommandLine="nmake acispartviewerd PLATFORM=nt_i386_vc90" Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="MFC90ud.lib vfw32.lib SpaHBridged.lib SpaACISd.lib hoops_utilsstatd_md.lib hoops_mvo_mgkd.lib hoops_streamd.lib hoops_mfcu_mgkd.lib hoopsd.lib" AdditionalLibraryDirectories="&quot;$(A3DT)/lib/nt_vc9_dlld&quot;;../../../Dev_Tools/hoops_3dgs/lib/nt_i386_vc90;../../../dev_tools/hoops_mvo/lib/nt_i386_vc90;../../../dev_tools/hoops_mfc/lib/nt_i386_vc90;../../../dev_tools/hoops_stream/lib/nt_i386_vc90;../../../dev_tools/utility/lib/nt_i386_vc90" EntryPointSymbol="wWinMainCRTStartup" GenerateDebugInformation="true" IgnoreDefaultLibraryNames="LIBC" LinkIncremental="1" Name="VCLinkerTool" OutputFile="$(OutDir)\acishoops3dpartviewerd.exe" ProgramDatabaseFile="$(OutDir)\$(TargetName).pdb" SubSystem="2" SuppressStartupBanner="true" TargetMachine="1"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="1" IntermediateDirectory="Debug_nt_x64_vc90" Name="Debug|x64" OutputDirectory="..\..\..\bin\nt_x64_vc90d" UseOfMFC="2">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool HeaderFileName="" MkTypLibCompatible="true" Name="VCMIDLTool" PreprocessorDefinitions="_DEBUG" SuppressStartupBanner="true" TargetEnvironment="3" TypeLibraryName=".\Debug_nt_x64_vc90/acispartviewer.tlb"/>
+			<Tool AdditionalIncludeDirectories="./,../../../Dev_Tools/hoops_3dgs/source;../../../Dev_Tools/hoops_hio/hio_dwf/hoops_dwf/source,../../../Dev_Tools/hoops_hio/hio_u3d/source,../../../dev_tools/hoops_mvo/source,../../../dev_tools/hoops_mfc/source,../../../dev_tools/hoops_stream/source,../../../dev_tools/hoops_stream/source/stream_common,../../../dev_tools/utility/source,$(A3DT)\include,..\partviewer_common,..\solidviewer_common" AssemblerListingLocation=".\Debug_nt_x64_vc90/" BrowseInformation="1" CompileAs="0" DebugInformationFormat="3" Name="VCCLCompilerTool" ObjectFile=".\Debug_nt_x64_vc90/" Optimization="0" PrecompiledHeaderFile=".\Debug_nt_x64_vc90/acispartviewer.pch" PrecompiledHeaderThrough="StdAfx.h" PreprocessorDefinitions="_UNICODE;_DEBUG;ACIS_DLL;DLLEXPORT=__declspec(dllexport);WIN32;_WINDOWS;ACIS;STDAFX;NT;NT_VC9_64_DLLD" ProgramDataBaseFileName="$(OutDir)\$(TargetName).pdb" RuntimeLibrary="3" RuntimeTypeInfo="false" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" UsePrecompiledHeader="2" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG"/>
+			<Tool CommandLine="nmake acispartviewerd PLATFORM=nt_x64_vc90" Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="vfw32.lib SpaHBridged.lib SpaACISd.lib hoops_utilsstatd_md.lib hoops_mvo_mgkd.lib hoops_streamd.lib hoops_mfcu_mgkd.lib hoopsd.lib" AdditionalLibraryDirectories="$(A3DT)/lib/NT_VC9_64_DLLD,../../../Dev_Tools/hoops_3dgs/lib/nt_x64_vc90,../../../dev_tools/hoops_mvo/lib/nt_x64_vc90,../../../dev_tools/hoops_mfc/lib/nt_x64_vc90,../../../dev_tools/hoops_stream/lib/nt_x64_vc90,../../../dev_tools/utility/lib/nt_x64_vc90" EntryPointSymbol="wWinMainCRTStartup" GenerateDebugInformation="true" IgnoreDefaultLibraryNames="LIBC" LinkIncremental="1" Name="VCLinkerTool" OutputFile="$(OutDir)\acishoops3dpartviewerd.exe" ProgramDatabaseFile="$(OutDir)\$(TargetName).pdb" SubSystem="2" SuppressStartupBanner="true" TargetMachine="17"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="1" IntermediateDirectory="Release_nt_i386_vc90" Name="Release|Win32" OutputDirectory="..\..\..\bin\nt_i386_vc90" UseOfMFC="2">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool HeaderFileName="" MkTypLibCompatible="true" Name="VCMIDLTool" PreprocessorDefinitions="NDEBUG" SuppressStartupBanner="true" TargetEnvironment="1" TypeLibraryName=".\Release_nt_i386_vc90/acispartviewer.tlb"/>
+			<Tool AdditionalIncludeDirectories="./,../../../Dev_Tools/hoops_3dgs/source;../../../Dev_Tools/hoops_hio/hio_dwf/hoops_dwf/source,../../../Dev_Tools/hoops_hio/hio_u3d/source,../../../dev_tools/hoops_mvo/source,../../../dev_tools/hoops_mfc/source,../../../dev_tools/hoops_stream/source,../../../dev_tools/hoops_stream/source/stream_common,../../../dev_tools/utility/source,$(A3DT)\include,..\partviewer_common,..\solidviewer_common" AssemblerListingLocation=".\Release_nt_i386_vc90/" CompileAs="0" EnableFunctionLevelLinking="true" InlineFunctionExpansion="1" Name="VCCLCompilerTool" ObjectFile=".\Release_nt_i386_vc90/" Optimization="2" PrecompiledHeaderFile=".\Release_nt_i386_vc90/acispartviewer.pch" PrecompiledHeaderThrough="StdAfx.h" PreprocessorDefinitions="_UNICODE;NDEBUG;ACIS_DLL;DLLEXPORT=__declspec(dllexport);WIN32;_WINDOWS;ACIS;STDAFX;NT;NT_VC8_DLL" ProgramDataBaseFileName="$(OutDir)\$(TargetName).pdb" RuntimeLibrary="2" RuntimeTypeInfo="false" StringPooling="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" UsePrecompiledHeader="2" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="NDEBUG"/>
+			<Tool CommandLine="nmake acispartviewer PLATFORM=nt_i386_vc90" Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="MFC90u.lib vfw32.lib SpaHBridge.lib SpaACIS.lib hoops_utilsstat_md.lib hoops_mvo_mgk.lib hoops_stream.lib hoops_mfcu_mgk.lib hoops.lib" AdditionalLibraryDirectories="$(A3DT)/lib/nt_vc9_dll,../../../Dev_Tools/hoops_3dgs/lib/nt_i386_vc90,../../../dev_tools/hoops_mvo/lib/nt_i386_vc90,../../../dev_tools/hoops_mfc/lib/nt_i386_vc90,../../../dev_tools/hoops_stream/lib/nt_i386_vc90,../../../dev_tools/utility/lib/nt_i386_vc90" EntryPointSymbol="wWinMainCRTStartup" GenerateDebugInformation="false" IgnoreDefaultLibraryNames="LIBC" LinkIncremental="1" Name="VCLinkerTool" OutputFile="$(OutDir)\acishoops3dpartviewer.exe" ProgramDatabaseFile="$(OutDir)\$(TargetName).pdb" SubSystem="2" SuppressStartupBanner="true" TargetMachine="1"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="1" IntermediateDirectory="Release_nt_x64_vc90" Name="Release|x64" OutputDirectory="..\..\..\bin\nt_x64_vc90" UseOfMFC="2">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool HeaderFileName="" MkTypLibCompatible="true" Name="VCMIDLTool" PreprocessorDefinitions="NDEBUG" SuppressStartupBanner="true" TargetEnvironment="3" TypeLibraryName=".\Release_nt_x64_vc90/acispartviewer.tlb"/>
+			<Tool AdditionalIncludeDirectories="./,../../../Dev_Tools/hoops_3dgs/source;../../../Dev_Tools/hoops_hio/hio_dwf/hoops_dwf/source,../../../Dev_Tools/hoops_hio/hio_u3d/source,../../../dev_tools/hoops_mvo/source,../../../dev_tools/hoops_mfc/source,../../../dev_tools/hoops_stream/source,../../../dev_tools/hoops_stream/source/stream_common,../../../dev_tools/utility/source,$(A3DT)\include,..\partviewer_common,..\solidviewer_common" AssemblerListingLocation=".\Release_nt_x64_vc90/" CompileAs="0" EnableFunctionLevelLinking="true" InlineFunctionExpansion="1" Name="VCCLCompilerTool" ObjectFile=".\Release_nt_x64_vc90/" Optimization="2" PrecompiledHeaderFile=".\Release_nt_x64_vc90/acispartviewer.pch" PrecompiledHeaderThrough="StdAfx.h" PreprocessorDefinitions="_UNICODE;NDEBUG;ACIS_DLL;DLLEXPORT=__declspec(dllexport);WIN32;_WINDOWS;ACIS;STDAFX;NT;NT_VC9_64_DLL" ProgramDataBaseFileName="$(OutDir)\$(TargetName).pdb" RuntimeLibrary="2" RuntimeTypeInfo="false" StringPooling="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="true" UsePrecompiledHeader="2" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="NDEBUG"/>
+			<Tool CommandLine="nmake acispartviewer PLATFORM=nt_x64_vc90" Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="vfw32.lib SpaHBridge.lib SpaACIS.lib hoops_utilsstat_md.lib hoops_mvo_mgk.lib hoops_stream.lib hoops_mfcu_mgk.lib hoops.lib" AdditionalLibraryDirectories="$(A3DT)/lib/NT_VC9_64_DLL,../../../Dev_Tools/hoops_3dgs/lib/nt_x64_vc90,../../../dev_tools/hoops_mvo/lib/nt_x64_vc90,../../../dev_tools/hoops_mfc/lib/nt_x64_vc90,../../../dev_tools/hoops_stream/lib/nt_x64_vc90,../../../dev_tools/utility/lib/nt_x64_vc90" AdditionalOptions="/VERBOSE:lib" EntryPointSymbol="wWinMainCRTStartup" GenerateDebugInformation="false" IgnoreDefaultLibraryNames="LIBC" LinkIncremental="1" Name="VCLinkerTool" OutputFile="$(OutDir)\acishoops3dpartviewer.exe" ProgramDatabaseFile="$(OutDir)\$(TargetName).pdb" SubSystem="2" SuppressStartupBanner="true" TargetMachine="17"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter Filter="*.cpp, *.cxx, *.c" Name="Source Files">
+			<File RelativePath="..\partviewer_common\acis_ts3d_id_attrib.cpp">
+			</File>
+			<File RelativePath="..\partviewer_common\AnnotateDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="ASTopolBrowserDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\at_T3D.cpp">
+			</File>
+			<File RelativePath="..\partviewer_common\AviOptionsDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\BusyDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\BusyLodDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CAppSettings.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CBinaryFileToolkit.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CErrorBrowserDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\ClashDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\ClashSelect.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CModelBrowserDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CMultiModelDlg.cpp">
+			</File>
+			<File RelativePath="..\partviewer_common\CommandLineOutputDlg.cpp">
+			</File>
+			<File RelativePath="..\partviewer_common\CSegmentBrowser.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CSegmentBrowserDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CSegmentManipulatorDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CSolidHoopsApp.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CSolidHoopsChildFrm.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CSolidHoopsDoc.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CSolidHoopsFrm.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\CSolidHoopsView.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\DetailPropertySheet.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\DWFExportOptionsDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\EditLightsDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\ErrorDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\FileLoadProgressDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\FrameratePage.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HIOUtilityLeadTools.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PrecompiledHeaderThrough="" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="0"/>
+				</FileConfiguration>
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PrecompiledHeaderThrough="" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="0"/>
+				</FileConfiguration>
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PrecompiledHeaderThrough="" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="0"/>
+				</FileConfiguration>
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PrecompiledHeaderThrough="" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="0"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HoopsSegmentTree.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HoopsStyle.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HOpObjectSweeten.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="HSAcisSelectionSet.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSolidModel.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSolidView.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpCameraOrbit.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpCameraPan.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpCameraWalk.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpCameraZoom.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpCameraZoomBox.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpMeasureDistance.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpMoveHandle.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpObjectTranslate.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpSelectAperture.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpSelectArea.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\solidviewer_common\HSPlainSelectionSet.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSQuery.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSQueryAdvanced.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSSelectionSet.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\..\Dev_Tools\hoops_mvo\source\HStreamer.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PrecompiledHeaderThrough="" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="0"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PrecompiledHeaderThrough="" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="0"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PrecompiledHeaderThrough="" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="0"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PrecompiledHeaderThrough="" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="0"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HStreamProgressDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HSUtility.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HUIUtilityMFC.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\ImageViewer.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\KeyframeEditor.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\LodPage.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\MainStyleWindow.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\MaterialPropertiesDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\OpcodeHandlers.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\OptimizeDialog.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\PartViewerOptionPages.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\PDFExportDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\PlainTopolBrowserDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\PresetViewDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\QueryDialog.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\SelectStyleWindow.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\spatial.ico">
+			</File>
+			<File RelativePath="..\partviewer_common\StdAfx.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false" UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\StreamingThread.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\StyleDialog.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\TextInput.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\TopolBrowserDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\TreeGraph.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\UserPasswordDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\WindowsTreeGraph.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\XMLEditorDlg.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BrowseInformation="1" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="" RuntimeTypeInfo="false"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter Filter="*.hxx, *.h" Name="Header Files">
+			<File RelativePath="..\partviewer_common\acis_ts3d_id_attrib.h">
+			</File>
+			<File RelativePath="..\partviewer_common\AnnotateDlg.h">
+			</File>
+			<File RelativePath="ASTopolBrowserDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\at_T3D.h">
+			</File>
+			<File RelativePath="..\partviewer_common\BusyDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\BusyLodDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CAppSettings.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CBinaryFileToolkit.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CErrorBrowserDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\ClashDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\ClashSelect.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CModelBrowserDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CMultiModelDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CommandLineOutputDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CSegmentBrowser.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CSegmentBrowserDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CSegmentManipulatorDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CSolidHoopsApp.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CSolidHoopsChildFrm.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CSolidHoopsDoc.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CSolidHoopsFrm.h">
+			</File>
+			<File RelativePath="..\partviewer_common\CSolidHoopsView.h">
+			</File>
+			<File RelativePath="..\partviewer_common\DetailPropertySheet.h">
+			</File>
+			<File RelativePath="..\partviewer_common\DWFExportOptionsDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\EditLightsDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\ErrorDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\FileLoadProgressDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\FrameratePage.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HIOUtilityLeadTools.h">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32">
+					<Tool Name="VCCustomBuildTool"/>
+				</FileConfiguration>
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|x64">
+					<Tool Name="VCCustomBuildTool"/>
+				</FileConfiguration>
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32">
+					<Tool Name="VCCustomBuildTool"/>
+				</FileConfiguration>
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|x64">
+					<Tool Name="VCCustomBuildTool"/>
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\partviewer_common\HoopsSegmentTree.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HoopsStyle.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HOpObjectSweeten.h">
+			</File>
+			<File RelativePath="HSAcisSelectionSet.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSInclude.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSolidModel.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSolidView.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpCameraOrbit.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpCameraPan.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpCameraWalk.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpCameraZoom.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpCameraZoomBox.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpMeasureDistance.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpMoveHandle.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpObjectTranslate.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpSelectAperture.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSOpSelectArea.h">
+			</File>
+			<File RelativePath="..\solidviewer_common\HSPlainSelectionSet.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSQuery.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSQueryAdvanced.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSSelectionSet.h">
+			</File>
+			<File RelativePath="..\..\..\Dev_Tools\hoops_mvo\source\HStreamer.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HStreamProgressDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HSUtility.h">
+			</File>
+			<File RelativePath="..\partviewer_common\HUIUtilityMFC.h">
+			</File>
+			<File RelativePath="..\partviewer_common\ImageViewer.h">
+			</File>
+			<File RelativePath="..\partviewer_common\KeyframeEditor.h">
+			</File>
+			<File RelativePath="..\partviewer_common\LodPage.h">
+			</File>
+			<File RelativePath="..\partviewer_common\MainStyleWindow.h">
+			</File>
+			<File RelativePath="..\partviewer_common\MaterialPropertiesDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\OpcodeHandlers.h">
+			</File>
+			<File RelativePath="..\partviewer_common\OptimizeDialog.h">
+			</File>
+			<File RelativePath="..\partviewer_common\PartViewerOptionPages.h">
+			</File>
+			<File RelativePath="..\partviewer_common\PDFExportDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\PlainTopolBrowserDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\PresetViewDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\QueryDialog.h">
+			</File>
+			<File RelativePath="..\partviewer_common\Resource.h">
+			</File>
+			<File RelativePath="..\partviewer_common\SelectStyleWindow.h">
+			</File>
+			<File RelativePath="..\partviewer_common\StdAfx.h">
+			</File>
+			<File RelativePath="..\partviewer_common\StreamingThread.h">
+			</File>
+			<File RelativePath="..\partviewer_common\StyleDialog.h">
+			</File>
+			<File RelativePath="..\partviewer_common\TextInput.h">
+			</File>
+			<File RelativePath="..\partviewer_common\TopolBrowserDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\TreeGraph.h">
+			</File>
+			<File RelativePath="..\partviewer_common\UserPasswordDlg.h">
+			</File>
+			<File RelativePath="..\partviewer_common\WindowsTreeGraph.h">
+			</File>
+			<File RelativePath="..\partviewer_common\XMLEditorDlg.h">
+			</File>
+		</Filter>
+		<Filter Filter="*.rc, *.bmp, *.ico" Name="Resource Files">
+			<File RelativePath="..\partviewer_common\AboutAcisHoops.bmp">
+			</File>
+			<File RelativePath="..\partviewer_common\AboutGraniteHoops.bmp">
+			</File>
+			<File RelativePath="..\partviewer_common\acis.bmp">
+			</File>
+			<File RelativePath="..\partviewer_common\hoops.ico">
+			</File>
+			<File RelativePath="..\partviewer_common\parasolid.bmp">
+			</File>
+			<File RelativePath="..\partviewer_common\parasolid.ico">
+			</File>
+			<File RelativePath="..\partviewer_common\partviewer.rc">
+			</File>
+			<File RelativePath="..\partviewer_common\ptc.bmp">
+			</File>
+			<File RelativePath="..\partviewer_common\ptc.ico">
+			</File>
+			<File RelativePath="..\partviewer_common\toolbar_point_cloud.bmp">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
